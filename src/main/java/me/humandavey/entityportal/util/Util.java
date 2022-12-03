@@ -1,4 +1,4 @@
-package me.humandavey.template.util;
+package me.humandavey.entityportal.util;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

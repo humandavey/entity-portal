@@ -1,3 +1,3 @@
-# Template [humandavey]
+# EntityPortal [humandavey]
 
-This is a template project
+Easily stop entities from being able to travel through different portals!

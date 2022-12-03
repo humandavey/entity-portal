@@ -1,6 +1,6 @@
-package me.humandavey.template.command.commands;
+package me.humandavey.entityportal.command.commands;
 
-import me.humandavey.template.command.Command;
+import me.humandavey.entityportal.command.Command;
 import org.bukkit.entity.Player;
 
 public class ExampleCommand extends Command {

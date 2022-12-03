@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.humandavey</groupId>
-    <artifactId>template</artifactId>
+    <artifactId>entityportal</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>Template</name>
+    <name>EntityPortal</name>
 
     <properties>
         <java.version>17</java.version>

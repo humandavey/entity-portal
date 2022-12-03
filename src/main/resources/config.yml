@@ -1,0 +1,14 @@
+#----------------------------#
+# EntityPortal by humandavey #
+#----------------------------#
+
+nether-to-overworld:
+  #- SQUID
+overworld-to-nether:
+  #- SQUID
+overworld-to-end:
+  #- SQUID
+end-to-end:
+  #- SQUID
+end-to-overworld:
+  #- SQUID

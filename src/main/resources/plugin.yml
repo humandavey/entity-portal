@@ -1,5 +1,5 @@
-name: Template
+name: EntityPortal
 version: '${project.version}'
-main: me.humandavey.template.Template
+main: me.humandavey.entityportal.EntityPortal
 api-version: 1.19
 authors: [ humandavey ]

@@ -1,10 +1,11 @@
-package me.humandavey.template;
+package me.humandavey.entityportal;
 
+import me.humandavey.entityportal.listeners.EntityPortalListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class Template extends JavaPlugin {
+public final class EntityPortal extends JavaPlugin {
 
-	private static Template instance;
+	private static EntityPortal instance;
 
 	@Override
 	public void onEnable() {
@@ -31,14 +32,14 @@ public final class Template extends JavaPlugin {
 	}
 
 	private void registerListeners() {
-
+		getServer().getPluginManager().registerEvents(new EntityPortalListener(), this);
 	}
 
 	private void registerCommands() {
 
 	}
 
-	public static Template getInstance() {
+	public static EntityPortal getInstance() {
 		return instance;
 	}
 }
